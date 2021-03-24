@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&family=Varela+Round&display=swap');
+
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --gray4text: #63747079;
+    --red: #ff0000;
+    --darkBlue: #2600ff;
+    --blue: #00eeff;
+    --col4background:#333333;
+    --niceYellow: #ffcc00;
+  }
+
+  h1, h2 ,h3, h4, h5, h6{
+    background:#333333;
+    margin: 0;
+    font-family: "Roboto";
+    font-style:italic;
+    color: white;
+}
+.mainPic {
+  float: right; /* (следует изменить) Выравнивание по правому краю */
+  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+ } 
+body {
+  background: #333333; /* Цвет фона */
+  color:  #ffcc00; /* Цвет текста */
+ }
+
+
+  /* Container */
+.container {
+  background-color: col4background;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+.mainText{
+  background:#333333;
+    margin: 0;
+    max-width: 350px;
+    font-family: "Roboto";
+    color: white;
+}
+
