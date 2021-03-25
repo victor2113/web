@@ -6,7 +6,7 @@
     --black: #000000;
     --gray4text: #63747079;
     --red: #ff0000;
-    --darkBlue: #2600ff;
+    --rlydarkBlue: #120170;
     --blue: #00eeff;
     --col4background:#333333;
     --niceYellow: #ffcc00;
@@ -19,17 +19,19 @@
     font-style:italic;
     color: white;
 }
+
 .mainPic {
-  float: right; /* (следует изменить) Выравнивание по правому краю */
-  margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+  float: left;
+  margin: 0 0 5px 5px; 
  } 
+
 body {
   background: #333333; /* Цвет фона */
   color:  #ffcc00; /* Цвет текста */
  }
 
 
-  /* Container */
+  /* Container for preheader */
 .container {
   background-color: col4background;
   width: 100%;
@@ -37,11 +39,48 @@ body {
   margin: 0 auto;
   height: 50px;
 }
+div{
+  overflow:hidden
+  }
+.container4MainInfo {
+  background-color: col4background;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: 1200px;
+  height: 100%;
+  border: 5px solid #fff; /* Белая рамка */
+  border-radius: 15px; /* Радиус скругления */
+}
+
 .mainText{
-  background:#333333;
+    margin: 0;
+    max-width: 1000;
+    font-family: "Roboto";
+    color: white;
+}
+.Text4tables{
     margin: 0;
     max-width: 350px;
     font-family: "Roboto";
     color: white;
 }
 
+ li {
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+   li:before {
+    color: red; /* Цвет маркера */
+    content: "•"; /* Сам маркер */
+    padding-right: 10px; /* Расстояние от маркера до текста */
+   }
+
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
