@@ -101,13 +101,14 @@ div{
      }
 
      a { 
-      text-decoration: none; /* Убираем подчеркивание у ссылок */
+      text-decoration: none;/* Убираем подчеркивание у ссылок */
+      color: #15037a; 
      }
+     
      a:hover { 
       text-decoration: underline; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
-      color: rlydarkBlue;
      }
-     .link { color: #120170; }
+     .link { color: #15037a; }
 
      table{
        margin-top: 10px;
@@ -134,5 +135,11 @@ div{
       height: 50px;
       background-color: rgba(9, 4, 32, 0.966);
     }
-  
+  .teaTable{
+    
+    width: 1200px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid #3531f7 ; /* Параметры рамки */
+  }
    
