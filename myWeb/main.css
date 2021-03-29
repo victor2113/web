@@ -13,7 +13,7 @@
   }
 
   h1, h2 ,h3, h4, h5, h6{
-    background:#333333;
+    /*background:#333333; не нужно вроде*/
     margin: 0;
     font-family: "Roboto";
     font-style:italic;
@@ -47,6 +47,8 @@ div{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
   max-height: 1200px;
   height: 100%;
   border: 5px solid #fff; /* Белая рамка */
@@ -68,9 +70,10 @@ div{
 
  li {
     list-style-type: none; /* Прячем исходные маркеры */
+    position: initial;
    }
    li:before {
-    color: red; /* Цвет маркера */
+    color: rgb(180, 0, 252); /* Цвет маркера */
     content: "•"; /* Сам маркер */
     padding-right: 10px; /* Расстояние от маркера до текста */
    }
@@ -84,3 +87,52 @@ div{
     float: right; /* Выравнивание по правому краю  */ 
     margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
    }
+
+   .myFooter {
+      margin: 0;
+      max-width: 1200;
+      font-family: "Roboto";
+      color: white;
+      position: fixed; /* Фиксированное положение */
+      right: 0; bottom: 0; /* правый нижний угол */
+      padding: 10px; /* Поля вокруг текста */
+      border: 0px solid #fff; /* Белая рамка */
+      width: 100%; /* Ширина слоя */
+     }
+
+     a { 
+      text-decoration: none; /* Убираем подчеркивание у ссылок */
+     }
+     a:hover { 
+      text-decoration: underline; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
+      color: rlydarkBlue;
+     }
+     .link { color: #120170; }
+
+     table{
+       margin-top: 10px;
+     }
+
+     .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      margin-top: 30px;
+      background-color: rgba(9, 4, 32, 0.966);
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgb(145, 142, 142);
+    }
+    
+    /* Add some padding inside the card container */
+    .card_container {
+      padding: 2px 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+      height: 50px;
+      background-color: rgba(9, 4, 32, 0.966);
+    }
+  
+   
