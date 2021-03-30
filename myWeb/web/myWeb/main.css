@@ -38,7 +38,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   height: 50px;
-  margin-bottom: 10px;
 }
 div{
   overflow:hidden
@@ -72,7 +71,6 @@ div{
  li {
     list-style-type: none; /* Прячем исходные маркеры */
     position: initial;
-    margin-bottom: 5px
    }
    li:before {
     color: rgb(180, 0, 252); /* Цвет маркера */
@@ -138,7 +136,7 @@ div{
       background-color: rgba(9, 4, 32, 0.966);
     }
   .teaTable{
-   
+    
     width: 1200px; /* Ширина таблицы */
     border-collapse: collapse; /* Убираем двойные линии между ячейками */
     padding: 3px; /* Поля вокруг содержимого таблицы */
